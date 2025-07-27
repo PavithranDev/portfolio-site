@@ -1,17 +1,16 @@
 <a name="readme-top"></a>
 
-# Modern Space Theme Portfolio using Next.js 14 and Three.js
+# Pavithran's Portfolio - Modern Space Theme using Next.js 14 and Three.js
 
-![Modern Space Theme Portfolio using Next.js 14 and Three.js](/.github/images/img_main.png "Modern Space Theme Portfolio using Next.js 14 and Three.js")
+![Pavithran's Portfolio](/.github/images/img_main.png "Pavithran's Portfolio")
 
-[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy "Ask Me Anything!")
-[![GitHub license](https://flat.badgen.net/github/license/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/blob/main/LICENSE "GitHub license")
-[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/commits/main "Maintenance")
-[![GitHub branches](https://flat.badgen.net/github/branches/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/branches "GitHub branches")
-[![Github commits](https://flat.badgen.net/github/commits/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/commits "Github commits")
-[![GitHub issues](https://flat.badgen.net/github/issues/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/issues "GitHub issues")
-[![GitHub pull requests](https://flat.badgen.net/github/prs/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/pulls "GitHub pull requests")
-[![Netlify Status](https://api.netlify.com/api/v1/badges/451ed0e0-3541-474e-896a-4987e30a7722/deploy-status)](https://spaceportfolio.netlify.app/ "Netlify Status")
+[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/PavithranDev "Ask Me Anything!")
+[![GitHub license](https://flat.badgen.net/github/license/PavithranDev/portfolio-site?icon=github&color=black&scale=1.01)](https://github.com/PavithranDev/portfolio-site/blob/main/LICENSE "GitHub license")
+[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/PavithranDev/portfolio-site/commits/main "Maintenance")
+[![GitHub branches](https://flat.badgen.net/github/branches/PavithranDev/portfolio-site?icon=github&color=black&scale=1.01)](https://github.com/PavithranDev/portfolio-site/branches "GitHub branches")
+[![Github commits](https://flat.badgen.net/github/commits/PavithranDev/portfolio-site?icon=github&color=black&scale=1.01)](https://github.com/PavithranDev/portfolio-site/commits "Github commits")
+[![GitHub issues](https://flat.badgen.net/github/issues/PavithranDev/portfolio-site?icon=github&color=black&scale=1.01)](https://github.com/PavithranDev/portfolio-site/issues "GitHub issues")
+[![GitHub pull requests](https://flat.badgen.net/github/prs/PavithranDev/portfolio-site?icon=github&color=black&scale=1.01)](https://github.com/PavithranDev/portfolio-site/pulls "GitHub pull requests")
 
 <!-- Table of Contents -->
 <details>
@@ -22,29 +21,46 @@
 
 </summary>
 
+- [About](#sparkles-about)
+- [Features](#rocket-features)
 - [Folder Structure](#bangbang-folder-structure)
 - [Getting Started](#toolbox-getting-started)
-- [Screenshots](#camera-screenshots)
 - [Tech Stack](#gear-tech-stack)
-- [Stats](#wrench-stats)
-- [Contribute](#raised_hands-contribute)
+- [Screenshots](#camera-screenshots)
+- [Deployment](#globe_with_meridians-deployment)
+- [Contact](#mailbox-contact)
 - [Acknowledgements](#gem-acknowledgements)
-- [Buy Me a Coffee](#coffee-buy-me-a-coffee)
-- [Follow Me](#rocket-follow-me)
-- [Learn More](#books-learn-more)
-- [Deploy on Vercel](#page_with_curl-deploy-on-vercel)
-- [Give A Star](#star-give-a-star)
-- [Star History](#star2-star-history)
-- [Give A Star](#star-give-a-star)
 
 </details>
 
+## :sparkles: About
+
+Welcome to my personal portfolio website! This is a modern, interactive portfolio built with cutting-edge web technologies. It showcases my skills, projects, and experience as a Full Stack Developer.
+
+### What makes this portfolio special:
+- **3D Animations**: Stunning space-themed animations using Three.js
+- **Interactive Design**: Smooth transitions and engaging user experience
+- **Responsive**: Works perfectly on all devices
+- **Modern Tech Stack**: Built with Next.js 14, TypeScript, and Tailwind CSS
+- **Performance Optimized**: Fast loading and smooth interactions
+
+## :rocket: Features
+
+- ⚡ **Lightning Fast**: Built with Next.js 14 for optimal performance
+- 🎨 **3D Graphics**: Interactive Three.js animations and effects
+- 📱 **Fully Responsive**: Works seamlessly across all devices
+- 🎭 **Smooth Animations**: Framer Motion for buttery smooth transitions
+- 🔒 **Type Safe**: Built with TypeScript for robust code
+- 🎯 **SEO Optimized**: Optimized for search engines
+- 🌙 **Space Theme**: Beautiful cosmic design with particle effects
+- 📄 **Resume Download**: Direct resume download functionality
+
 ## :bangbang: Folder Structure
 
-Here is the folder structure of this app.
+Here is the folder structure of Pavithran's portfolio app.
 
 ```bash
-space-portfolio/
+portfolio-site/
   |- app/
     |-- favicon.ico
     |-- globals.css
@@ -79,6 +95,7 @@ space-portfolio/
     |-- lock-main.png
     |-- lock-top.png
     |-- logo.png
+    |-- resume.pdf
   |- .eslintrc.json
   |- .gitignore
   |- next.config.js
@@ -93,40 +110,145 @@ space-portfolio/
 
 ## :toolbox: Getting Started
 
-1. Make sure **Git** and **NodeJS** is installed.
+Follow these steps to get the portfolio running on your local machine:
 
-2. Clone this repository to your local computer.
+### Prerequisites
+- **Node.js** (v18 or higher)
+- **npm** or **yarn**
+- **Git**
 
-3. Open terminal in root directory. Run `npm install --legacy-peer-deps` or `yarn install --legacy-peer-deps`.
+### Installation
 
-4. Now app is fully configured 👍 and you can start using this app using `npm run dev` or `yarn dev`.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/PavithranDev/portfolio-site.git
+   cd portfolio-site
+   ```
 
-## :camera: Screenshots:
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-![Modern UI/UX](/.github/images/img1.png "Modern UI/UX")
+3. **Start the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-![Showcase your skills](/.github/images/img2.png "Showcase your skills")
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the portfolio in action!
 
-![Built with Typescript](/.github/images/img3.png "Built with Typescript")
-
-![Showcase your projects](/.github/images/img4.png "Showcase your projects")
+### Available Scripts
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
 ## :gear: Tech Stack
 
-[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Next JS](https://skillicons.dev/icons?i=next "Next JS")](https://nextjs.org/ "Next JS") [![Typescript](https://skillicons.dev/icons?i=ts "Typescript")](https://www.typescriptlang.org/ "Typescript") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") [![Netlify](https://skillicons.dev/icons?i=netlify "Netlify")](https://netlify.app/ "Netlify") [![Three.js](https://skillicons.dev/icons?i=threejs "Three.js")](https://threejs.org/ "Three.js")
+**Frontend:**
+[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") 
+[![Next JS](https://skillicons.dev/icons?i=next "Next JS")](https://nextjs.org/ "Next JS") 
+[![Typescript](https://skillicons.dev/icons?i=ts "Typescript")](https://www.typescriptlang.org/ "Typescript") 
+[![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") 
+[![Three.js](https://skillicons.dev/icons?i=threejs "Three.js")](https://threejs.org/ "Three.js")
 
-## :wrench: Stats
+**Development & Deployment:**
+[![Vercel](https://skillicons.dev/icons?i=vercel "Vercel")](https://vercel.com/ "Vercel")
+[![Git](https://skillicons.dev/icons?i=git "Git")](https://git-scm.com/ "Git")
+[![VSCode](https://skillicons.dev/icons?i=vscode "VSCode")](https://code.visualstudio.com/ "VSCode")
 
-[![Stats for Space Portfolio](/.github/images/stats.svg "Stats for Space Portfolio")](https://pagespeed.web.dev/analysis/https-spaceportfolio-netlify-app/2efbmg117d "Stats for Space Portfolio")
+## :camera: Screenshots
 
-## :raised_hands: Contribute
+### Hero Section - Welcome to Space
+![Modern UI/UX](/.github/images/img1.png "Hero Section with 3D Effects")
 
-You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.
+### Skills Showcase
+![Showcase your skills](/.github/images/img2.png "Interactive Skills Section")
+
+### TypeScript Integration
+![Built with Typescript](/.github/images/img3.png "Type-Safe Development")
+
+### Projects Portfolio
+![Showcase your projects](/.github/images/img4.png "Featured Projects")
+
+## :globe_with_meridians: Deployment
+
+### Deploy on Vercel (Recommended)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/PavithranDev/portfolio-site)
+
+1. Fork this repository
+2. Import your fork to Vercel
+3. Deploy with default settings
+4. Your portfolio will be live!
+
+### Deploy on Netlify
+
+#### Method 1: Direct Git Integration
+1. **Fork this repository** on GitHub
+2. **Connect to Netlify**:
+   - Go to [Netlify](https://netlify.com)
+   - Click "New site from Git"
+   - Connect your GitHub account
+   - Select your forked repository
+3. **Configure build settings**:
+   - Build command: `npm run build`
+   - Publish directory: `out`
+   - Node version: `18`
+4. **Deploy**: Click "Deploy site"
+
+#### Method 2: Manual Deploy
+1. **Build locally**:
+   ```bash
+   npm run build
+   ```
+2. **Upload the `out` folder** to Netlify by dragging and dropping
+
+#### Troubleshooting Netlify Deployment
+If you encounter Google Fonts errors during build:
+- ✅ **Fixed**: We've moved Google Fonts to Next.js font optimization
+- ✅ **Fixed**: Added proper Netlify configuration
+- ✅ **Fixed**: Configured static export in `next.config.js`
+
+### Other Deployment Options
+- **GitHub Pages**: Use GitHub Actions for automatic deployment
+- **AWS Amplify**: Connect your repository for continuous deployment
+
+## :mailbox: Contact
+
+**Pavithran Dev**
+- 📧 Email: [your-email@example.com](mailto:your-email@example.com)
+- 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- 🐱 GitHub: [@PavithranDev](https://github.com/PavithranDev)
+- 🌐 Portfolio: [Live Demo](https://your-portfolio-site.vercel.app)
+
+*Feel free to reach out for collaboration opportunities!*
 
 ## :gem: Acknowledgements
 
-Useful resources and dependencies that are used in Space Portfolio.
+### Credits & Inspiration
+- **Template Base**: Inspired by [sanidhyy's space-portfolio](https://github.com/sanidhyy/space-portfolio)
+- **Developed by**: Pavithran Dev
+- **3D Models**: Three.js community
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
 
+### Key Dependencies
+- **Next.js 14**: React framework for production
+- **Three.js**: 3D graphics library
+- **Framer Motion**: Animation library
+- **Tailwind CSS**: Utility-first CSS framework
+- **TypeScript**: Type-safe JavaScript
+- **React Icons**: Popular icon library
+
+<details>
+<summary>View all dependencies</summary>
+
+**Production Dependencies:**
 - [@heroicons/react](https://www.npmjs.com/package/@heroicons/react): ^2.1.1
 - [@react-three/drei](https://www.npmjs.com/package/@react-three/drei): ^9.93.0
 - [@react-three/fiber](https://www.npmjs.com/package/@react-three/fiber): ^8.15.13
@@ -139,6 +261,8 @@ Useful resources and dependencies that are used in Space Portfolio.
 - [react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer): ^9.5.3
 - [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^2.2.0
 - [three](https://www.npmjs.com/package/three): ^0.160.0
+
+**Development Dependencies:**
 - [@types/node](https://www.npmjs.com/package/@types/node): ^20
 - [@types/react](https://www.npmjs.com/package/@types/react): ^18
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^18
@@ -149,15 +273,49 @@ Useful resources and dependencies that are used in Space Portfolio.
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.0
 - [typescript](https://www.npmjs.com/package/typescript): ^5
 
-## :coffee: Buy Me a Coffee
+</details>
 
-[<img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" width="200" />](https://www.buymeacoffee.com/sanidhy "Buy me a Coffee")
+---
+
+## :star: Show Your Support
+
+Give a ⭐️ if this project helped you or if you like it!
+
+[![GitHub followers](https://img.shields.io/github/followers/PavithranDev?style=social&label=Follow&maxAge=2592000)](https://github.com/PavithranDev "Follow Me")
+[![GitHub stars](https://img.shields.io/github/stars/PavithranDev/portfolio-site?style=social)](https://github.com/PavithranDev/portfolio-site/stargazers)
+
+## :memo: License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<br />
+<p align="center">
+  <b>✨ Made with passion by Pavithran Dev ✨</b>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## :star: Show Your Support
+
+Give a ⭐️ if this project helped you or if you like it!
+
+[![GitHub followers](https://img.shields.io/github/followers/PavithranDev?style=social&label=Follow&maxAge=2592000)](https://github.com/PavithranDev "Follow Me")
+[![GitHub stars](https://img.shields.io/github/stars/PavithranDev/portfolio-site?style=social)](https://github.com/PavithranDev/portfolio-site/stargazers)
+
+## :memo: License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<br />
+<p align="center">
+  <b>✨ Made with passion by Pavithran Dev ✨</b>
+</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## :rocket: Follow Me
 
-[![GitHub followers](https://img.shields.io/github/followers/sanidhyy?style=social&label=Follow&maxAge=2592000)](https://github.com/sanidhyy "Follow Me")
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTechnicalShubam)](https://twitter.com/intent/tweet?text=Check+out+this+amazing+app:&url=https%3A%2F%2Fgithub.com%2Fsanidhyy%2Fspace-portfolio "Tweet")
-[![YouTube](https://img.shields.io/youtube/channel/subscribers/UCNAz_hUVBG2ZUN8TVm0bmYw)](https://www.youtube.com/@OPGAMER. "Subscribe my YouTube Channel")
+[![GitHub followers](https://img.shields.io/github/followers/PavithranDev?style=social&label=Follow&maxAge=2592000)](https://github.com/PavithranDev "Follow Me")
 
 ## :books: Learn More
 
@@ -180,15 +338,22 @@ You can also give this repository a star to show more people and they can use th
 
 ## :star2: Star History
 
-<a href="https://star-history.com/#sanidhyy/space-portfolio&Timeline">
+## :star2: Star History
+
+<a href="https://star-history.com/#PavithranDev/portfolio-site&Timeline">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=PavithranDev/portfolio-site&type=Timeline&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=PavithranDev/portfolio-site&type=Timeline" />
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=PavithranDev/portfolio-site&type=Timeline" />
 </picture>
 </a>
 
 <br />
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-#   p o r t f o l i o - s i t e  
+
+---
+
+**Built with ❤️ by Pavithran Dev**
+#   p o r t f o l i o - s i t e 
+ 
  

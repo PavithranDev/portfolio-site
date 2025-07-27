@@ -7,7 +7,7 @@ type ProjectCardProps = {
   src: string;
   title: string;
   description: string;
-  techStack: string[];
+  techStack: readonly string[];
   links: {
     live?: string;
     github?: string;
